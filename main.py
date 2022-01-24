@@ -38,7 +38,7 @@ async def on_message(message):
     await message.channel.send('No problem! I am happy to help. Beep Boop!')
 
   if msg.startswith('$introduce'):
-    await message.channel.send("Hi! I'm BitBot, a discord bot RPG assistant. Please see the pinned post about me to see what commands I know. I am updated by user @Spookysona#7944. If you have any questions ask my human. I am gappy to meet you all!")
+    await message.channel.send("Hi! I'm BitBot, a discord bot RPG assistant. Please see the pinned post about me to see what commands I know. I am updated by HaleyBellArt. If you have any questions ask my human. I am happy to meet you all!")
 
   if msg.startswith('$poop'):
     await message.channel.send(":poop:")
@@ -114,7 +114,7 @@ async def on_message(message):
       if choice == 0:
         await message.channel.send("It is now Flatworm Friday! https://www.youtube.com/watch?v=LoB6mB9qZn4")
       if choice == 1: 
-        await message.channel.send("I's Flat Friday! https://www.youtube.com/watch?v=A5U8ypHq3BU")
+        await message.channel.send("I's Flat Friend Friday! https://www.youtube.com/watch?v=A5U8ypHq3BU")
     
     if today == "Saturday":
       await message.channel.send("It's saturday! Yay! Let me know if you have a meme you'd like me to post here.")
